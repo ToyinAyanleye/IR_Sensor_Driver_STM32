@@ -1,0 +1,29 @@
+[INFO ] 2019-09-06 00:01:49,466 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Start Cube IDE services
+[INFO ] 2019-09-06 00:01:49,509 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Cube IDE services are relying on '1.0.2.3' product version and '20190708-0539(UTC)' build version 
+[INFO ] 2019-09-06 00:01:49,510 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Analyze Cube IDE services command line
+[INFO ] 2019-09-06 00:01:49,535 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Look for Cube IDE service type
+[INFO ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Use Cube IDE service: 'Mx generate project service'
+[INFO ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Look for Cube IDE service option(s)
+[WARN ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Argument '-rmiServerPort' is ignored
+[WARN ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Argument '6543' is ignored
+[INFO ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Check Cube IDE service option(s)
+[INFO ] 2019-09-06 00:01:49,624 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Run Cube IDE service
+[ERROR] 2019-09-06 00:01:51,657 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Fail to create / get project 'IR_Sensor_Driver_STM32' within workspace 'D:/documents/tutorials/Embedded/Embedded Code/STM/Device_Drivers'
+[ERROR] 2019-09-06 00:01:51,663 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Fail to complete service execution. Return code is '306'. Related message to is 'Fail to create / get project 'IR_Sensor_Driver_STM32' within workspace 'D:/documents/tutorials/Embedded/Embedded Code/STM/Device_Drivers''. 
+[INFO ] 2019-09-06 00:01:51,663 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Service 'Mx generate project service' usage is:
+[INFO ] 2019-09-06 00:01:51,664 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - 	'-source / -src (Optional)' : Project source. Supported ones are: '[CUBE, MANAGED, NONMANAGED]'
+[INFO ] 2019-09-06 00:01:51,664 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - 	'-cubeScratchFile / -scratch ' : Cube scratch file
+[INFO ] 2019-09-06 00:01:51,664 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - 	'-buildType (Optional)' : Build type. Supported ones are: '[EXEC, LIB]'
+[INFO ] 2019-09-06 00:01:51,664 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - 	'-lang (Optional)' : Project language. Supported ones are: '[CPP, C]'
+[INFO ] 2019-09-06 00:01:51,664 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - End Cube IDE services
+[INFO ] 2019-09-06 00:05:09,581 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Start Cube IDE services
+[INFO ] 2019-09-06 00:05:09,589 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Cube IDE services are relying on '1.0.2.3' product version and '20190708-0539(UTC)' build version 
+[INFO ] 2019-09-06 00:05:09,590 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Analyze Cube IDE services command line
+[INFO ] 2019-09-06 00:05:09,596 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Look for Cube IDE service type
+[INFO ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Use Cube IDE service: 'Mx update project service'
+[INFO ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Look for Cube IDE service option(s)
+[WARN ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Argument '-rmiServerPort' is ignored
+[WARN ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Argument '6544' is ignored
+[INFO ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Check Cube IDE service option(s)
+[INFO ] 2019-09-06 00:05:09,613 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - Run Cube IDE service
+[INFO ] 2019-09-06 00:05:13,586 com.st.stm32cube.ide.common.services.mx.rcp.CubeIdeServices - End Cube IDE services
