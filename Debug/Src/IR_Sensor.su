@@ -1,0 +1,2 @@
+IR_Sensor.c:3:6:IR_Sensor_Init	16	static
+IR_Sensor.c:7:5:IR_Sensor_Get_Value	24	static

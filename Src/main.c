@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "IR_Sensor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,7 +44,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+IR_Sens IR_Sensor_1 = {IR_Sensor_Pin, IR_Sensor_GPIO_Port};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,6 +89,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  IR_Sensor_Init(&IR_Sensor_1);
+
+  int IR_Sensor_1_Value;
 
   /* USER CODE END 2 */
 
@@ -97,6 +100,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	IR_Sensor_1_Value = IR_Sensor_Get_Value(&IR_Sensor_1);
 
     /* USER CODE BEGIN 3 */
   }
