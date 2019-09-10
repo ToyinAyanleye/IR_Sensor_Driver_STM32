@@ -20,8 +20,8 @@ typedef struct IR{
 }IR_Sens;
 
 //API Functions
-void IR_Sensor_Init(IR_Sens *);//initial setup for the sensor pin
-int IR_Sensor_Get_Value(IR_Sens *);//reading current state of the IR Sensor
+void IR_Sensor_Init(IR_Sens *const, GPIO_TypeDef *const, const uint16_t);//initial setup for the sensor pin
+int IR_Sensor_Get_Value(const IR_Sens *const);//reading current state of the IR Sensor
 
 
 #endif

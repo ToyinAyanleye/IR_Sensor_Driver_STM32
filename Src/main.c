@@ -44,7 +44,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-IR_Sens IR_Sensor_1 = {IR_Sensor_Pin, IR_Sensor_GPIO_Port};
+IR_Sens IR_Sensor_1;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,9 +89,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  IR_Sensor_Init(&IR_Sensor_1);
+  IR_Sensor_Init(&IR_Sensor_1, IR_Sensor_GPIO_Port, IR_Sensor_Pin);
 
-  int IR_Sensor_1_Value;
+  int IR_Sensor_1_Value = 0;
 
   /* USER CODE END 2 */
 
@@ -102,6 +102,11 @@ int main(void)
     /* USER CODE END WHILE */
 	IR_Sensor_1_Value = IR_Sensor_Get_Value(&IR_Sensor_1);
 
+	if(IR_Sensor_1_Value==1){
+		HAL_GPIO_WritePin(Led_GPIO_Port, Led_Pin, GPIO_PIN_SET);
+	}else if(IR_Sensor_1_Value==0){
+		HAL_GPIO_WritePin(Led_GPIO_Port, Led_Pin, GPIO_PIN_RESET);
+	}
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
